@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - A program that prints a value with printf
  * Return: 0 (End)
