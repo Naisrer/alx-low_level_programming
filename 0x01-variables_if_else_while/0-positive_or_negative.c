@@ -1,10 +1,14 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - program that outputs as  positive negetive or zero
+ * Return: Always (success)
+  */
+
 int main(void)
+
 {
 	int n;
 
@@ -16,6 +20,7 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else if (n < 0)
-		printf("%d is negetive\n", n);
+		printf("%d is negative\n", n);
+
 	return (0);
 }
