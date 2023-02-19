@@ -7,7 +7,6 @@
 int main(void)
 {
 	int n = 0;
-	int m = '$';
 
 	while (n <= 9)
 	{
@@ -18,7 +17,7 @@ int main(void)
 		n++;
 	}
 	{
-		putchar(m);
+		putchar(' ');
 	}
 	{
 		putchar('\n');
