@@ -12,4 +12,5 @@ int main(void)
 	{
 		putchar(n + '0');
 	}
+	return (0);
 }
