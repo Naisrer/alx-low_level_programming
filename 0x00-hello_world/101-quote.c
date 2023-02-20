@@ -3,7 +3,7 @@
 
 /**
  * main - a program that prints w/o printf and puts
- * Retrun: Alwys (success)
+ * Return: Always (success)
  */
 
 int main(void)
