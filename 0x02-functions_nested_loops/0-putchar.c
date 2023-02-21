@@ -1,15 +1,17 @@
 #include <stdio.h>
-#include "main.h"
+/**
+ * main - a program that displays a word
+ * Return: Always (success)
+ */
 
-int main()
+int main(void)
+
 {
-        char x[] = "_putchar";
-        int i;
+	char x[] = "_putchar";
+	int i;
 
-        for (i=0; x[i]; i++)
-        _putchar(x[i]);
-
-        -putchar('\n');
-
-        return 0;
+	for (i = 0; x[i]; i++)
+	putchar(x[i]);
+	putchar('\n');
+	return (0);
 }
