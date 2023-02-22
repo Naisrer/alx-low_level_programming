@@ -1,14 +1,15 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - a program that list alphabet
  * Return: Always (success)
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char alp;
+	char alp = 'a';
 
 	for (alp = 'a'; alp <= 'z'; alp++)
-	putchar(alp);
-	putchar('\n');
+	_putchar(alp);
+	_putchar('\n');
 }
