@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * main - a program that list alphabet
+ * description - void function 
  * Return: Always (success)
  */
 
