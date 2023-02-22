@@ -1,15 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-int main()
+void print_alphabet(void);
 {
-	char x[] = "_putchar";
-	int i;
-
-	for (i=0; x[i]; i++)
-	_putchar(x[i]);
-
-	-putchar('\n');
+	char alphabet;
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	putchar(alphabet);
+	putchar('\n');
 	
-	return 0;
 }
