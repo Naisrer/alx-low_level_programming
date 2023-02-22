@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * main - a program that list alphabet
- * description - void function 
+ * print_alphabet - a program that list alphabet
  * Return: Always (success)
  */
 
