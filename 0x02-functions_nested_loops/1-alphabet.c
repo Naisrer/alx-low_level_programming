@@ -1,15 +1,13 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - a program that list alphabet
  * Return: Always (success)
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char 1 = 'a';
-	for (1 = 'a'; 1 <= 'z'; 1++)
-	putchar('1');
+	char alp;
+	for (alp = 'a'; alp <= 'z'; alp++)
+	putchar(alp);
 	putchar('\n');
-	return (0);
 }
