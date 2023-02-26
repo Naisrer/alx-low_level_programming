@@ -22,6 +22,7 @@ void times_table(void)
 			else
 				printf("%d,  ", mul);
 		}
+		_putchar('\n');
 	}
 	_putchar('\n');
 }
