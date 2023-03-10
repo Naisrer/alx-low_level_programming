@@ -1,1 +1,1 @@
-readme file for debugging project
+0x09 static libraries project readme file
